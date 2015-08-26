@@ -1,6 +1,0 @@
-#org.jbehave.core.embedder.StoryManager
-#Wed Aug 26 16:44:47 CEST 2015
-stories/search_google.story=11000
-threads=1
-total=11000
-threadAverage=11000
