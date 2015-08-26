@@ -6,7 +6,7 @@ As a development team
 I want to use Behaviour-Driven Development
 					 
 Scenario:  Open Google and make search
-Given I open URL 'http://google.com' in browser 'Firefox'
-When I input search string 'JBehave' into field with name 'q'
-And  I click a button with name 'btnG'
+Given open URL 'http://google.com' in browser 'firefox'
+When put text 'JBehave' to textbox 'SearchBox' on form 'GoogleSearch'
+And click button 'Search' on form 'GoogleSearch'
 !-- Then step represents the outcome of the event

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form Name="GoogleSearch">
+   <elements>
+      <textbox Name="SearchBox" name="q" />
+      <button Name="Search" name="btnG" />
+   </elements>
+</form>

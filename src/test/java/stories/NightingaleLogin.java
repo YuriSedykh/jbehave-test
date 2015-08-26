@@ -1,4 +1,4 @@
-package jbehave.stories;
+package stories;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.jbehave.core.reporters.StoryReporterBuilder.Format;
 import org.jbehave.core.steps.CandidateSteps;
 import org.jbehave.core.steps.InstanceStepsFactory;
 
-import jbehave.GoogleTestSteps;
+import steps.*;
 
-public class GoogleTest extends JUnitStory {
+public class NightingaleLogin extends JUnitStory {
 	 
     // Here we specify the configuration, starting from default MostUsefulConfiguration, and changing only what is needed
 
@@ -30,7 +30,7 @@ public class GoogleTest extends JUnitStory {
     @Override
     public List<CandidateSteps> candidateSteps() {        
         // varargs, can have more that one steps classes
-        return new InstanceStepsFactory(configuration(), new GoogleTestSteps()).createCandidateSteps();
+        return new InstanceStepsFactory(configuration(), new CommonSteps()).createCandidateSteps();
     }
 	
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form Name="NightingaleLogin">
+   <elements>
+      
+      <label Name="AccountLabel" xpath="/html/body/div[4]/div/table/tbody/tr[2]/td[2]/div/div/div[2]/div[2]/div/div/div/div" />
+      <label Name="UserIDLabel" xpath="/html/body/div[4]/div/table/tbody/tr[2]/td[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div" />
+      <label Name="PasswordLabel" xpath="/html/body/div[4]/div/table/tbody/tr[2]/td[2]/div/div/div[2]/div[2]/div/div[3]/div/div" />
+      
+      <textbox Name="Account" id="loginAccountText" />
+      <textbox Name="UserID" id="loginUseridText" />
+      <textbox Name="Password" id="loginPasswordText" />
+      
+      <button Name="SignIn" id="loginButton" />
+      
+   </elements>
+</form>

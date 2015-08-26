@@ -1,4 +1,3 @@
-jbehave\stories\GoogleTest.class
-jbehave\GoogleTestSteps.class
-jbehave\stories\GoogleTest$1.class
-selenium\pageObjects.class
+stories\NightingaleLogin.class
+steps\CommonSteps.class
+stories\SearchGoogle.class
