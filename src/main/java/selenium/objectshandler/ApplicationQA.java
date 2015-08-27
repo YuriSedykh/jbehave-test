@@ -31,7 +31,7 @@ public class ApplicationQA {
 		Boolean result=true;
 		try{
 			driver.get(this.url);
-			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+			//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		}
 		catch(Exception e){
 			System.out.println("Error to open site: "+this.url);

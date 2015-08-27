@@ -28,7 +28,7 @@ public class CommonSteps{
 	
 	@Then("should open form '$formName'")
 	public void ShouldOpenForm(String formName){
-		app.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		Assert.assertTrue(app.form("formName").element("Tasks").obj.isDisplayed());
+		//app.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+		Assert.assertTrue(app.form(formName).link("Tasks").obj.isDisplayed());
 	}
 }
